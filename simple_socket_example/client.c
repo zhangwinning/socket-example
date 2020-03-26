@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 #define HOST "127.0.0.1"
-#define PORT 13
+#define PORT 10000
 #define	MAXLINE		4096	/* max text line length */
 int main(int argc, char **argv) {
     int sockfd, n;
@@ -31,6 +31,8 @@ int main(int argc, char **argv) {
     if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0) {
         printf("connect error");
     }
+//  一旦 socket 连接完成，server 发送数据到 client socket, 客户端经由 socket 描述符可以刦数据。
+
 //  使用 read 函数读取服务器应答，recvline[n] 表示在字符串n位置用 0 表示结束的位置，使用标准 I/O 函数 fputs 在 recvline 读取值输出结果。
     while ((n = read(sockfd, recvline, MAXLINE)) > 0) {
         recvline[n] = 0;    /* null terminate */
