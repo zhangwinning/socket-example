@@ -34,6 +34,6 @@ printf 的日志不是立即打印的，fprintf(stderr, "hello") 才会立即打
 
 > [c-socket-programming](https://www.thegeekstuff.com/2011/12/c-socket-programming/)
 
-    [代码](https://gist.github.com/browny/5211329#file-simple_socket_example-c-L118)
+> [代码](https://gist.github.com/browny/5211329#file-simple_socket_example-c-L118)
 
-<<socket 网络编程>>
+> <<socket 网络编程>>
