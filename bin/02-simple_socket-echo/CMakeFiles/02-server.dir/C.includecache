@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/videojj/study/socket-example/02-simple_socket-echo/server.c
+unistd.h
+-
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+syslog.h
+-
+

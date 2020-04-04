@@ -11,7 +11,8 @@ g++ client.c -o client
 
 ### 第二种 CMakeLists.txt
 
-在 CMakeLists.txt 写入以下文件，然后新建 cd build 目录后，执行 `cmake ..`, 生成 MaKeFile 文件，然后执行 make 即可。
+在 CMakeLists.txt 填充以下文件，然后在父目录下 CMakeLists.txt 下加入 `add_subdirectory(03-simple_socket-select)`。表示在父目录下
+可以执行子目录。
 
 ```
  PROJECT (HELLO)
@@ -36,4 +37,4 @@ printf 的日志不是立即打印的，fprintf(stderr, "hello") 才会立即打
 
 > [代码](https://gist.github.com/browny/5211329#file-simple_socket_example-c-L118)
 
-> <<socket 网络编程>>
+> & laquo;socket网络编程& raquo;

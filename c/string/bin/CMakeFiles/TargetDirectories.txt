@@ -1,0 +1,8 @@
+/Users/videojj/study/socket-example/c/string/bin/CMakeFiles/edit_cache.dir
+/Users/videojj/study/socket-example/c/string/bin/CMakeFiles/rebuild_cache.dir
+/Users/videojj/study/socket-example/c/string/bin/CMakeFiles/dyn_arr.dir
+/Users/videojj/study/socket-example/c/string/bin/CMakeFiles/fgets1.dir
+/Users/videojj/study/socket-example/c/string/bin/CMakeFiles/getsputs.dir
+/Users/videojj/study/socket-example/c/string/bin/CMakeFiles/strptr.dir
+/Users/videojj/study/socket-example/c/string/bin/CMakeFiles/p_and_s.dir
+/Users/videojj/study/socket-example/c/string/bin/CMakeFiles/addresses.dir

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HELLO"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\02-simple_socket-echo\;CMake Files\01-simple_socket_example\;CMake Files\c\;CMake Files\c\file\;CMake Files\c\struct\;CMake Files\c\select\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/videojj/study/socket-example/01-simple_socket_example"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-server">
+				<Option output="/Users/videojj/study/socket-example/01-simple_socket_example/01-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/videojj/study/socket-example/01-simple_socket_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 01-server"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-server/fast">
+				<Option output="/Users/videojj/study/socket-example/01-simple_socket_example/01-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/videojj/study/socket-example/01-simple_socket_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 01-server/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-client">
+				<Option output="/Users/videojj/study/socket-example/01-simple_socket_example/01-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/videojj/study/socket-example/01-simple_socket_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 01-client"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-client/fast">
+				<Option output="/Users/videojj/study/socket-example/01-simple_socket_example/01-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/videojj/study/socket-example/01-simple_socket_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 01-client/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/videojj/study/socket-example/01-simple_socket_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/videojj/study/socket-example/01-simple_socket_example/client.c">
+			<Option target="01-client"/>
+		</Unit>
+		<Unit filename="/Users/videojj/study/socket-example/01-simple_socket_example/server.c">
+			<Option target="01-server"/>
+		</Unit>
+		<Unit filename="/Users/videojj/study/socket-example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/videojj/study/socket-example/02-simple_socket-echo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\02-simple_socket-echo\"/>
+		</Unit>
+		<Unit filename="/Users/videojj/study/socket-example/01-simple_socket_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\01-simple_socket_example\"/>
+		</Unit>
+		<Unit filename="/Users/videojj/study/socket-example/c/file/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c\file\"/>
+		</Unit>
+		<Unit filename="/Users/videojj/study/socket-example/c/struct/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c\struct\"/>
+		</Unit>
+		<Unit filename="/Users/videojj/study/socket-example/c/select/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c\select\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

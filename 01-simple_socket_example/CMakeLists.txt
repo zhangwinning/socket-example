@@ -6,5 +6,5 @@
  SET(CLIENT client.c)
  SET(SERVER server.c)
 
- ADD_EXECUTABLE(client ${CLIENT})
- ADD_EXECUTABLE(server ${SERVER})
+ ADD_EXECUTABLE(01-client ${CLIENT})
+ ADD_EXECUTABLE(01-server ${SERVER})

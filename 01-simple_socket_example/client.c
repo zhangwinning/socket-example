@@ -41,6 +41,7 @@ int main(int argc, char **argv) {
             printf("fputs error");
     }
     if (n < 0) {
+
         printf("read error");
     }
     return 0;
